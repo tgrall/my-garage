@@ -1,8 +1,17 @@
 # EPIC 3: Gestion du Planning 🗓️
 
+## 🔗 Navigation Rapide
+- **[📋 Index Général](../../index.md)** | **[📚 Documentation](../index.md)** | **[🎯 Épics](./index.md)**
+- **Épics :** [Epic 01 - Clients](./EPIC-01-gestion-clients.md) | [Epic 02 - RDV](./EPIC-02-prise-rdv.md) | [Epic 04 - Interventions](./EPIC-04-interventions.md)
+
 ## Vue d'ensemble
 
 Cette epic concerne la gestion complète du planning du garage, l'affectation des ressources et l'optimisation de la charge de travail.
+
+## 📋 User Stories de cette Epic
+- **[US-07](#us-07-visualisation-planning-mécanicien)** - Visualisation planning mécanicien
+- **[US-08](#us-08-gestion-des-disponibilités-garage)** - Gestion des disponibilités garage
+- **[US-09](#us-09-affectation-intelligente-des-rdv)** - Affectation intelligente des RDV
 
 ## Diagramme de flux
 
@@ -348,6 +357,28 @@ graph TB
 - **RG-PLAN-05**: Un mécanicien ne peut avoir plus de 3 interventions complexes par jour
 - **RG-PLAN-06**: Rotation obligatoire des mécaniciens le samedi
 - **RG-PLAN-07**: Un poste de travail ne peut être occupé plus de 10h/jour
+
+---
+
+## 🔗 Navigation
+
+### 📄 Cette Epic
+- **[US-07](#us-07-visualisation-planning-mécanicien)** - Visualisation planning mécanicien
+- **[US-08](#us-08-gestion-des-disponibilités-garage)** - Gestion des disponibilités garage
+- **[US-09](#us-09-affectation-intelligente-des-rdv)** - Affectation intelligente des RDV
+
+### 🎯 Autres Épics
+- **[Epic 01 - Gestion Clients](./EPIC-01-gestion-clients.md)** - Comptes et véhicules
+- **[Epic 02 - Prise de RDV](./EPIC-02-prise-rdv.md)** - Système de réservation
+- **[Epic 04 - Interventions](./EPIC-04-interventions.md)** - Cycle des interventions
+
+### 📚 Documentation
+- **[🎯 Index des Épics](./index.md)** - Vue d'ensemble des épics
+- **[📚 Documentation](../index.md)** - Accès à toute la documentation
+- **[📐 Règles Métier](../business-rules/BUSINESS-RULES.md)** - Contraintes et règles
+- **[🏠 Accueil](../../index.md)** - Vue d'ensemble du projet
+
+*Dernière mise à jour : Octobre 2025*
 
 ## Indicateurs de performance
 

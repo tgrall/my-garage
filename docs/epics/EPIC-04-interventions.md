@@ -1,8 +1,17 @@
 # EPIC 4: Gestion des Interventions 🔧
 
+## 🔗 Navigation Rapide
+- **[📋 Index Général](../../index.md)** | **[📚 Documentation](../index.md)** | **[🎯 Épics](./index.md)**
+- **Épics :** [Epic 01 - Clients](./EPIC-01-gestion-clients.md) | [Epic 02 - RDV](./EPIC-02-prise-rdv.md) | [Epic 03 - Planning](./EPIC-03-planning.md)
+
 ## Vue d'ensemble
 
 Cette epic couvre tout le cycle de vie d'une intervention, de la documentation technique à la facturation finale.
+
+## 📋 User Stories de cette Epic
+- **[US-10](#us-10-documentation-de-lintervention)** - Documentation de l'intervention
+- **[US-11](#us-11-création-et-gestion-des-devis)** - Création et gestion des devis
+- **[US-12](#us-12-facturation-et-paiement)** - Facturation et paiement
 
 ## Diagramme de flux
 
@@ -472,6 +481,28 @@ stateDiagram-v2
 - **RG-INT-06**: Facturation immédiate si client blacklisté
 - **RG-INT-07**: Remise fidélité automatique après 5 interventions (-10%)
 - **RG-INT-08**: Validation responsable si remise > 20%
+
+---
+
+## 🔗 Navigation
+
+### 📄 Cette Epic
+- **[US-10](#us-10-documentation-de-lintervention)** - Documentation de l'intervention
+- **[US-11](#us-11-création-et-gestion-des-devis)** - Création et gestion des devis
+- **[US-12](#us-12-facturation-et-paiement)** - Facturation et paiement
+
+### 🎯 Autres Épics
+- **[Epic 01 - Gestion Clients](./EPIC-01-gestion-clients.md)** - Comptes et véhicules
+- **[Epic 02 - Prise de RDV](./EPIC-02-prise-rdv.md)** - Système de réservation
+- **[Epic 03 - Planning](./EPIC-03-planning.md)** - Gestion des ressources
+
+### 📚 Documentation
+- **[🎯 Index des Épics](./index.md)** - Vue d'ensemble des épics
+- **[📚 Documentation](../index.md)** - Accès à toute la documentation
+- **[📐 Règles Métier](../business-rules/BUSINESS-RULES.md)** - Contraintes et règles
+- **[🏠 Accueil](../../index.md)** - Vue d'ensemble du projet
+
+*Dernière mise à jour : Octobre 2025*
 
 ## Indicateurs de performance
 

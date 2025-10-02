@@ -1,8 +1,17 @@
 # EPIC 1: Gestion des Clients 👤
 
+## 🔗 Navigation Rapide
+- **[📋 Index Général](../../index.md)** | **[📚 Documentation](../index.md)** | **[🎯 Épics](./index.md)**
+- **Épics :** [Epic 02 - RDV](./EPIC-02-prise-rdv.md) | [Epic 03 - Planning](./EPIC-03-planning.md) | [Epic 04 - Interventions](./EPIC-04-interventions.md)
+
 ## Vue d'ensemble
 
 Cette epic couvre toutes les fonctionnalités liées à la gestion des comptes clients, leurs véhicules et leur historique d'interventions.
+
+## 📋 User Stories de cette Epic
+- **[US-01](#us-01-création-de-compte-client)** - Création de compte client
+- **[US-02](#us-02-gestion-des-véhicules)** - Gestion des véhicules  
+- **[US-03](#us-03-consultation-historique)** - Consultation historique
 
 ## Diagramme de flux
 
@@ -285,6 +294,28 @@ graph TD
 - **RG-CLIENT-02**: Suppression automatique des comptes inactifs après 3 ans (RGPD)
 - **RG-CLIENT-03**: Maximum 5 véhicules pour un particulier, 20 pour un professionnel
 - **RG-CLIENT-04**: L'historique est conservé 10 ans pour les interventions de sécurité
+
+---
+
+## 🔗 Navigation
+
+### 📄 Cette Epic
+- **[US-01](#us-01-création-de-compte-client)** - Création de compte client
+- **[US-02](#us-02-gestion-des-véhicules)** - Gestion des véhicules
+- **[US-03](#us-03-consultation-historique)** - Consultation historique
+
+### 🎯 Autres Épics
+- **[Epic 02 - Prise de RDV](./EPIC-02-prise-rdv.md)** - Système de réservation
+- **[Epic 03 - Planning](./EPIC-03-planning.md)** - Gestion des ressources
+- **[Epic 04 - Interventions](./EPIC-04-interventions.md)** - Cycle des interventions
+
+### 📚 Documentation
+- **[🎯 Index des Épics](./index.md)** - Vue d'ensemble des épics
+- **[📚 Documentation](../index.md)** - Accès à toute la documentation
+- **[📐 Règles Métier](../business-rules/BUSINESS-RULES.md)** - Contraintes et règles
+- **[🏠 Accueil](../../index.md)** - Vue d'ensemble du projet
+
+*Dernière mise à jour : Octobre 2025*
 - **RG-CLIENT-05**: Un client "blacklisté" ne peut pas créer de nouveau compte avec le même email/téléphone
 
 ## Métriques de succès

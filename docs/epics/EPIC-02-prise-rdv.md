@@ -1,8 +1,17 @@
 # EPIC 2: Prise de Rendez-vous 📅
 
+## 🔗 Navigation Rapide
+- **[📋 Index Général](../../index.md)** | **[📚 Documentation](../index.md)** | **[🎯 Épics](./index.md)**
+- **Épics :** [Epic 01 - Clients](./EPIC-01-gestion-clients.md) | [Epic 03 - Planning](./EPIC-03-planning.md) | [Epic 04 - Interventions](./EPIC-04-interventions.md)
+
 ## Vue d'ensemble
 
 Cette epic gère tout le processus de prise, modification et annulation de rendez-vous, depuis la demande client jusqu'à la confirmation par le garage.
+
+## 📋 User Stories de cette Epic
+- **[US-04](#us-04-prise-de-rdv-en-ligne)** - Prise de RDV en ligne
+- **[US-05](#us-05-modificationannulation-de-rdv)** - Modification/Annulation de RDV
+- **[US-06](#us-06-validation-rdv-par-le-garage)** - Validation RDV par le garage
 
 ## Diagramme de flux
 
@@ -329,6 +338,28 @@ sequenceDiagram
 - **RG-RDV-06**: Client blacklisté après 3 no-show en 12 mois
 - **RG-RDV-07**: Majoration 25% pour créneau samedi
 - **RG-RDV-08**: RDV urgence traités en priorité (surcoût 50€)
+
+---
+
+## 🔗 Navigation
+
+### 📄 Cette Epic
+- **[US-04](#us-04-prise-de-rdv-en-ligne)** - Prise de RDV en ligne
+- **[US-05](#us-05-modificationannulation-de-rdv)** - Modification/Annulation de RDV
+- **[US-06](#us-06-validation-rdv-par-le-garage)** - Validation RDV par le garage
+
+### 🎯 Autres Épics
+- **[Epic 01 - Gestion Clients](./EPIC-01-gestion-clients.md)** - Comptes et véhicules
+- **[Epic 03 - Planning](./EPIC-03-planning.md)** - Gestion des ressources
+- **[Epic 04 - Interventions](./EPIC-04-interventions.md)** - Cycle des interventions
+
+### 📚 Documentation
+- **[🎯 Index des Épics](./index.md)** - Vue d'ensemble des épics
+- **[📚 Documentation](../index.md)** - Accès à toute la documentation
+- **[📐 Règles Métier](../business-rules/BUSINESS-RULES.md)** - Contraintes et règles
+- **[🏠 Accueil](../../index.md)** - Vue d'ensemble du projet
+
+*Dernière mise à jour : Octobre 2025*
 
 ## Métriques de succès
 

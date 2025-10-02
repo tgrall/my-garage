@@ -1,5 +1,13 @@
 # 📐 Règles Métier - Application Gestion RDV Garage
 
+## 🔗 Navigation Rapide
+- **[📋 Index Général](../../index.md)** | **[📚 Documentation](../index.md)** | **[📐 Règles Métier](./index.md)**
+- **Épics :** [Epic 01 - Clients](../epics/EPIC-01-gestion-clients.md) | [Epic 02 - RDV](../epics/EPIC-02-prise-rdv.md) | [Epic 03 - Planning](../epics/EPIC-03-planning.md) | [Epic 04 - Interventions](../epics/EPIC-04-interventions.md)
+
+## 📋 Règles par catégorie
+- **[1. Règles de Planification](#1-règles-de-planification-)** - Contraintes temporelles et capacitaires
+- **[2. Plus de règles](#2-règles-de-planification-)** - À venir selon évolution du document
+
 ## 1. Règles de Planification 📅
 
 ### RG-PLAN-001: Durée des interventions
@@ -50,4 +58,25 @@
 - **Tarifs standard**:
   ```
   - Mécanique générale: 70€/h HT
-  - Carrosserie/pein
+  - Carrosserie/peinture: 80€/h HT
+  - Électronique auto: 90€/h HT
+  - Diagnostic spécialisé: 100€/h HT
+  ```
+
+---
+
+## 🔗 Navigation
+
+### 📐 Règles par Epic
+- **[Epic 01 - Gestion Clients](../epics/EPIC-01-gestion-clients.md)** - RG-CLIENT-xxx
+- **[Epic 02 - Prise de RDV](../epics/EPIC-02-prise-rdv.md)** - RG-RDV-xxx  
+- **[Epic 03 - Planning](../epics/EPIC-03-planning.md)** - RG-PLAN-xxx
+- **[Epic 04 - Interventions](../epics/EPIC-04-interventions.md)** - RG-INT-xxx
+
+### 📚 Documentation
+- **[📐 Index Règles Métier](./index.md)** - Vue d'ensemble des règles
+- **[🎯 Index des Épics](../epics/index.md)** - Vue d'ensemble des épics
+- **[📚 Documentation](../index.md)** - Accès à toute la documentation
+- **[🏠 Accueil](../../index.md)** - Vue d'ensemble du projet
+
+*Dernière mise à jour : Octobre 2025*
