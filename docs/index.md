@@ -33,6 +33,24 @@ Contraintes fonctionnelles et règles de gestion de l'application.
   - Contraintes temporelles et capacitaires
   - Gestion des exceptions
 
+### 📅 Planning & Organisation
+Documents stratégiques pour l'organisation et le suivi du projet.
+
+- **[PLANNING-STRATEGIQUE.md](./PLANNING-STRATEGIQUE.md)**
+  - Planning détaillé 11 sprints
+  - Milestones et stratégie de livraison
+  - Métriques de succès
+
+- **[GUIDE-ORGANISATION.md](./GUIDE-ORGANISATION.md)**
+  - Méthodologie de mise en œuvre
+  - Séquencement optimal des tâches
+  - Gestion des risques et contingence
+
+- **[Issues GitHub](https://github.com/tgrall/my-garage/issues)**
+  - 4 Épics principales
+  - 12 User Stories détaillées
+  - Planning stratégique trackable
+
 ## 🔗 Navigation Rapide
 
 ### Par Fonctionnalité

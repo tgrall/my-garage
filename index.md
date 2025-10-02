@@ -19,6 +19,11 @@ Bienvenue dans la documentation complète de l'application **My Garage** - une s
 ### 📐 Règles Métier
 - **[Règles Métier](./docs/business-rules/BUSINESS-RULES.md)** - Contraintes et règles de gestion
 
+### 📅 Planning & Stratégie
+- **[📅 Planning Stratégique](./docs/PLANNING-STRATEGIQUE.md)** - Roadmap 11 sprints et milestones
+- **[🏗️ Guide d'Organisation](./docs/GUIDE-ORGANISATION.md)** - Méthodologie et séquencement
+- **[📋 Issues GitHub](https://github.com/tgrall/my-garage/issues)** - Épics et User Stories
+
 ## 🔍 User Stories par Epic
 
 ### 👤 Gestion des Clients (EPIC 01)
@@ -49,6 +54,46 @@ Bienvenue dans la documentation complète de l'application **My Garage** - une s
 4. **Pour les contraintes** : Consultez les [règles métier](./docs/business-rules/BUSINESS-RULES.md)
 
 ## 📊 État d'avancement
+
+```mermaid
+pie title Répartition des User Stories par Phase
+    "Phase 1 - MVP (9 US)" : 75
+    "Phase 2 - Optimisation (3 US)" : 25
+```
+
+```mermaid
+graph LR
+    subgraph "✅ Phase 1 - MVP (Sprints 1-6)"
+        EP1[Epic 01<br/>Gestion Clients<br/>US-01 à US-03]
+        EP2[Epic 02<br/>Prise de RDV<br/>US-04 à US-06]
+        EP3[Epic 03<br/>Planning<br/>US-07 à US-09]
+    end
+    
+    subgraph "🔄 Phase 2 - Optimisation (Sprints 7-11)"
+        EP4[Epic 04<br/>Interventions<br/>US-10 à US-12]
+    end
+    
+    subgraph "📅 Phase 3 - Extensions Futures"
+        COMM[Communication<br/>Notifications avancées]
+        REPORT[Reporting<br/>Analytics & BI]
+        MOBILE[Mobile App<br/>Application native]
+    end
+    
+    EP1 --> EP2
+    EP2 --> EP3
+    EP3 --> EP4
+    EP4 -.-> COMM
+    EP4 -.-> REPORT
+    EP4 -.-> MOBILE
+    
+    classDef mvp fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef current fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    classDef future fill:#e3f2fd,stroke:#1565c0,stroke-width:1px,stroke-dasharray: 5 5
+    
+    class EP1,EP2,EP3 mvp
+    class EP4 current
+    class COMM,REPORT,MOBILE future
+```
 
 - ✅ **Phase 1 (MVP)** : Epics 01, 02, 03 - Fonctionnalités de base
 - 🔄 **Phase 2** : Epic 04 - Gestion complète des interventions

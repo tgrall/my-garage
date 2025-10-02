@@ -29,6 +29,11 @@ Application web permettant la gestion complète des rendez-vous et interventions
 ### 📐 Règles & Contraintes
 - **[Règles Métier](./docs/business-rules/BUSINESS-RULES.md)** - Contraintes fonctionnelles et de gestion
 
+### 📅 Planning & Organisation
+- **[Planning Stratégique](./docs/PLANNING-STRATEGIQUE.md)** - Roadmap détaillé et milestones
+- **[Guide d'Organisation](./docs/GUIDE-ORGANISATION.md)** - Méthodologie et séquencement optimal
+- **[Issues GitHub](https://github.com/tgrall/my-garage/issues)** - Épics et User Stories trackées
+
 ### Structure de la Documentation
 
 ```
@@ -45,7 +50,87 @@ docs/
     └── BUSINESS-RULES.md
 ```
 
-## 🚀 Roadmap
+## 🚀 Roadmap & Architecture
+
+### 📊 Vue d'ensemble du Projet
+
+```mermaid
+graph TB
+    subgraph "👥 Acteurs"
+        CLIENT[👤 Client<br/>Réservation RDV<br/>Suivi véhicules]
+        GARAGE[🏢 Responsable Garage<br/>Validation RDV<br/>Gestion planning]
+        MECHANIC[🔧 Mécanicien<br/>Planning personnel<br/>Documentation]
+    end
+    
+    subgraph "🎯 Fonctionnalités Core"
+        AUTH[🔐 Authentification<br/>Comptes & Sécurité]
+        BOOKING[📅 Système RDV<br/>Réservation & Gestion]
+        PLANNING[🗓️ Planning Intelligent<br/>Optimisation Ressources]
+        INTERVENTION[🔧 Interventions<br/>Documentation & Facturation]
+    end
+    
+    subgraph "⚙️ Architecture Technique"
+        FRONTEND[🌐 Frontend Web<br/>React + TypeScript]
+        API[🔌 API REST<br/>Node.js + Express]
+        DATABASE[💾 Base de Données<br/>PostgreSQL]
+        CLOUD[☁️ Cloud Services<br/>AWS/Azure + CI/CD]
+    end
+    
+    CLIENT --> AUTH
+    CLIENT --> BOOKING
+    GARAGE --> BOOKING
+    GARAGE --> PLANNING
+    MECHANIC --> PLANNING
+    MECHANIC --> INTERVENTION
+    
+    AUTH --> FRONTEND
+    BOOKING --> FRONTEND
+    PLANNING --> FRONTEND
+    INTERVENTION --> FRONTEND
+    
+    FRONTEND --> API
+    API --> DATABASE
+    API --> CLOUD
+    
+    classDef user fill:#ffebee,stroke:#c62828,stroke-width:2px
+    classDef feature fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef tech fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    
+    class CLIENT,GARAGE,MECHANIC user
+    class AUTH,BOOKING,PLANNING,INTERVENTION feature
+    class FRONTEND,API,DATABASE,CLOUD tech
+```
+
+### 📅 Planning Stratégique
+
+```mermaid
+timeline
+    title Roadmap My Garage - 11 Sprints (5.5 mois)
+    
+    section Phase 1 - MVP
+        Sprint 1-2 : Fondations Client
+                   : Comptes & Véhicules
+                   : Historique de base
+        
+        Sprint 3 : 🎯 Milestone 1
+                 : Réservation Client
+                 : Premier value delivery
+        
+        Sprint 4-6 : Complétion MVP
+                   : Gestion RDV complète
+                   : Interface garage
+                   : 🚀 MVP Release
+    
+    section Phase 2 - Optimisation
+        Sprint 7-8 : Intelligence & Mobile
+                   : Affectation automatique
+                   : Interface mécaniciens
+        
+        Sprint 9-11 : Cycle Commercial
+                    : Documentation complète
+                    : Devis & Facturation
+                    : 🎯 Lancement Général
+```
 
 ### Phase 1 - MVP (3 mois)
 - ✅ Gestion des comptes clients
