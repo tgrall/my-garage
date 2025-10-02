@@ -292,18 +292,18 @@ graph TB
 
 ```mermaid
 graph TB
-    subgraph "🏢 Organisation Projet"
-        PO[👤 Product Owner<br/>🎯 Vision & Priorités<br/>📋 Backlog Management]
-        SM[👤 Scrum Master<br/>🔄 Facilitation<br/>🚧 Suppression Obstacles]
+    subgraph "Organisation Projet"
+        PO[Product Owner\nVision & Priorités\nBacklog Management]
+        SM[Scrumb Master\nFacilitation\nSuppression Obstacles]
         
-        subgraph "💻 Équipe Développement"
-            DEV1[👨‍💻 Dev Full-Stack Senior<br/>🏗️ Architecture & Backend]
-            DEV2[👩‍💻 Dev Full-Stack<br/>🎨 Frontend & UX]
-            DEV3[👨‍💻 Dev Full-Stack<br/>📱 Mobile & API]
+        subgraph "Équipe Développement"
+            DEV1[Dev Full-Stack Senior\nArchitecture & Backend]
+            DEV2[Dev Full-Stack\nFrontend et UX]
+            DEV3[Dev Full-Stack\nMobile et API]
         end
         
-        UX[🎨 UX/UI Designer<br/>📐 Maquettes & Tests<br/>👥 Expérience Utilisateur]
-        OPS[⚙️ DevOps (Part-time)<br/>🚀 CI/CD & Déploiement<br/>📊 Monitoring]
+        UX[UX/UI Designer\nMaquettes et Tests\nExpérience Utilisateur]
+        OPS[DevOps Part-time\nCI CD et Déploiement\nMonitoring]
     end
     
     PO --> DEV1
@@ -322,6 +322,7 @@ graph TB
     class PO,SM leadership
     class DEV1,DEV2,DEV3 dev
     class UX,OPS support
+
 ```
 
 ### 📅 **Cérémonies Scrum Optimisées**
